@@ -15,7 +15,6 @@ export class DashboardComponent {
     map(({ matches }) => {
       if (matches) {
         console.log("small screen");
-
         return [
           { title: 'Card 1', cols: 2, rows: 1 },
           { title: 'Card 2', cols: 2, rows: 1 },
@@ -24,7 +23,6 @@ export class DashboardComponent {
         ];
       }
       console.log("medium screen");
-
       return [
         { title: 'Card 1', cols: 2, rows: 1 },
         { title: 'Card 2', cols: 1, rows: 1 },
